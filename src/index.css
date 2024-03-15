@@ -1,0 +1,38 @@
+body {
+  color: white !important;
+  background: rgb(44, 42, 42) !important;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 7px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background: #7e7272;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  box-shadow: 0 0 10px orange;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+a {
+  color: white;
+  padding: 5px;
+  text-decoration: none !important;
+}
+.active {
+  background: gray;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 0 0 10px orange;
+  opacity: 0.7;
+}
